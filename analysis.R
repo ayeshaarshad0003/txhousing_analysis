@@ -9,7 +9,7 @@ txhousing_agg <- txhousing %>%
             mean_sales = mean(sales, na.rm = TRUE),
             mean_listings = mean(listings, na.rm = TRUE),
             
-            min_price = min(median, na.rm = TRUE),
+            min_price = min(median, na.rm = TRUE), 
             min_sales = min(sales, na.rm = TRUE),
             min_listings = min(listings, na.rm = TRUE),
             
